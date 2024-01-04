@@ -255,6 +255,15 @@ a:active {
     /* min-height: 100vh; */
 }
 
+.main__ul {
+    list-style-type: none;    
+}
+
+.main__h1 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
 .main__article {
     scroll-margin-top: 6.5rem;
     margin: var(--MARGIN);
@@ -266,6 +275,17 @@ a:active {
 
 .main__article:last-child {
     min-height: calc(100vh - 20rem);
+}
+
+.bookTitle__a {
+    text-decoration: none;
+    display: block;
+    border-radius: var(--BORDER-RADIUS-L);
+}
+
+.bookTitle__a:hover {
+    background-color: var(--BORDER-COLOR);
+    color: var(--HEADER-COLOR);
 }
 
 .dailyQuote__p {
@@ -291,14 +311,6 @@ a:active {
     color: var(--LINK-HOVER);
 }
 
-.bookTitle__a {
-    text-decoration: none;
-}
-
-.main__h1 {
-    text-align: center;
-    font-size: 1.8rem;
-}
 /* || CONTACT */
 
 .post__h2 {
