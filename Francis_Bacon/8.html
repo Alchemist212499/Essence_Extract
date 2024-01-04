@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essence Extract</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../favicon.ico">
+    <script type="module" src="../js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Essence Extract</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="header__li">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="header__li">
+                    <a href="../pages/about.html">About</a>
+                </li>
+                <li class="header__li">
+                    <a href="../pages/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1 class="chapter__h1 book__title">&gt; Francis Bacon &lt;</h1>
+        <article class="main__article chapter" id="8">
+            <h2 class="chapter__h2 chapter__title">8. Of Marriage and Single Life</h2>
+            <h3 class="chapter__h3 summary">Summary</h3>
+            <p class="chapter__p summary">
+                There are several reasons listed as not to marry, including adding to the difficulty of achieving accomplishment and avoiding treating wife and kids as bills of charges. And since the nature of being single guarantees one's liberty, the unmarried friends, masters, servants and churmen are best of their kind, where as the soldiers go for the opposite way. Even though marriage is considered as discipline of humanity, it is still presumed that there is always a cause called upon marriage. Men that are grave tend to be loving husbands while chaste women are inclined to be proud wives, but jealous husbands,who are not the wise ones, should be rather careful of losing the obedience from their wives. 
+            </p>
+            <h3 class="chapter__h3 quotes">Quotes</h3>
+            <p class="chapter__p quote" id="1">
+                Q: When a man should marry? <br> A: "A young man not yet, an elder man not at all."<span class="nowrap author">Somebody</span>
+            </p>
+            <h3 class="chapter__h3 selectedSentences">Selected Sentences</h3>
+            <p class="chapter__p selectedSentences">
+                A single life does well with churchmen, for charity will hardly water the ground where it must first fill a pool.
+            </p>
+            <p class="chapter__p selectedSentences">
+                It is one of the best bonds, both of chastity and obedience, in the wife, if she think her husband wise, which she will never do if she find him jealous.
+            </p>
+        </article>
+
+        <hr>
+        <h4 class="chapter__h4 commentList">Comment Section</h4>
+
+        <ul class="commentList" id="commentList">
+
+        </ul>
+
+        <hr>
+
+        <form action="https://httpbin.org/get" method="get" class="post__form" id="commentForm">
+            <fieldset class="post__fieldset">
+                <legend class="offscreen">Leave a Comment</legend>
+                <p class="post">
+                    <label class="post__label" for="message">Leave a Comment</label>
+                    <textarea class="post__textarea" name="commentText" id="commentText" cols="30" rows="1"
+                        placeholder="Type your message here" maxlength="40"></textarea>
+                </p>
+            </fieldset>
+            <button class="post__button" id="submitButton" type="button">Send</button>
+            <button class="post__button" id="resetButton" type="reset">Reset</button>
+        </form>
+    </main>
+
+    <aside class="aside">
+        <a href="" class="aside__a previous__a">Previous</a>
+        <form class="pageForm" id="pageForm">
+            <input class="pageNum" id="pageNum" type="text" placeholder="enter chapter number" autocomplete="off">
+        </form>
+        <a href="" class="aside__a next__a">Next</a>
+    </aside>
+
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">Essence Extract</span>
+        </p>
+    </footer>
+</body>
+</html>

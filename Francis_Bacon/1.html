@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essence Extract</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="favicon.ico" type="/Essence_Extract/image/x-icon">
+    <script type="module" src="../js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Essence Extract</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="header__li">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="header__li">
+                    <a href="../pages/about.html">About</a>
+                </li>
+                <li class="header__li">
+                    <a href="../pages/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1 class="chapter__h1 book__title">&gt; Francis Bacon &lt;</h1>
+        <article class="main__article chapter" id="1">
+            <h2 class="chapter__h2 chapter__title">1. Of Truth</h2>
+            <h3 class="chapter__h3 summary">Summary</h3>
+            <p class="chapter__p summary">
+                There exists a crowd that aren't really into the idea of truth, such as the sects of philosophers and their succession. For truth is hard to find, truth encages people when they find it, and most of all, people have a natural addiction for lies, because lies offer imaginations that please us while truth tend to reveal too much falsehood. Nevertheless, truth is what should be found in human's good nature. It's a blessing from the mighty god and the one and only place where man can find peace within.Therefore, obeying the belief of truth is the principle that none of us should live without, and there is no greater shame than lies, because lies are the last cry of alarm from god for the ultimate judgement of humankind.
+            </p>
+            <h3 class="chapter__h3 quotes">Quotes</h3>
+            <p class="chapter__p quote" id="1">
+                "It is a pleasure to stand upon the shore, and to see ships tossed upon the sea; a pleasure to stand in the window of a castle, and to see a battle, and the adventures thereof below; but no pleasure is comparable to the standing upon the vantage-ground of truth, and to see the errors, and wanderings, and mists, and tempests, in the vale below."<span class="nowrap author">a poet</span>                
+            </p>
+            <p class="chapter__p quote" id="2">
+                "If it be well weighed, to say that a man lieth, is as much as to say that he is brave towards God and a coward towards men. For a lie faces god, and shrinks from man."<span class="nowrap author">Montaigne</span>
+            </p>
+        </article>
+
+        <hr>
+        <h4 class="chapter__h4 commentList">Comment Section</h4>
+
+        <ul class="commentList" id="commentList">
+
+        </ul>
+
+        <hr>
+
+        <form action="https://httpbin.org/get" method="get" class="post__form" id="commentForm">
+            <fieldset class="post__fieldset">
+                <legend class="offscreen">Leave a Comment</legend>
+                <p class="post">
+                    <label class="post__label" for="message">Leave a Comment</label>
+                    <textarea class="post__textarea" name="commentText" id="commentText" cols="30" rows="1"
+                        placeholder="Type your message here" maxlength="40"></textarea>
+                </p>
+            </fieldset>
+            <button class="post__button" id="submitButton" type="button">Send</button>
+            <button class="post__button" id="resetButton" type="reset">Reset</button>
+        </form>
+    </main>
+
+    <aside class="aside">
+        <a href="" class="aside__a previous__a">Previous</a>
+        <form class="pageForm" id="pageForm">
+            <input class="pageNum" id="pageNum" type="text" placeholder="enter chapter number" autocomplete="off">
+        </form>
+        <a href="" class="aside__a next__a">Next</a>
+    </aside>
+
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">Essence Extract</span>
+        </p>
+    </footer>
+</body>
+</html>
