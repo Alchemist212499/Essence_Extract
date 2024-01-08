@@ -339,11 +339,11 @@ a:active {
     text-decoration: none;
 }
 
-.guide__h3 a:visited, a:default{
+.guide__h3 a:any-link{
     color: var(--HIGHLIGHT-COLOR);
 }
 
-.guide__h4 a:visited, a:default{
+.guide__h4 a:any-link{
     color: var(--BODY-BGCOLOR);
 }
 
