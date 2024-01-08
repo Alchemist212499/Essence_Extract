@@ -85,6 +85,16 @@ textarea {
     white-space: nowrap;
 }
 
+.italic {
+    font-style: italic;
+}
+
+.marker {
+    background-color: var(--HIGHLIGHT-COLOR);
+    color: var(--BODY-BGCOLOR);
+    border-radius: var(--BORDER-RADIUS-S);
+}
+
 .center {
     text-align: center;
 }
@@ -309,6 +319,47 @@ a:active {
 
 .dailyQuote__chapter:hover {
     color: var(--LINK-HOVER);
+}
+
+.guide__ul {
+    list-style-type: none;
+}
+
+.guide__p {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    padding-left: 1px;
+}
+
+.guide__h3 a {
+    text-decoration: none;
+}
+
+.guide__h4 a {
+    text-decoration: none;
+}
+
+.guide__h3 a:visited, a:default{
+    color: var(--HIGHLIGHT-COLOR);
+}
+
+.guide__h4 a:visited, a:default{
+    color: var(--BODY-BGCOLOR);
+}
+
+.guide__h4 {
+    background-color: var(--HIGHLIGHT-COLOR);
+    color: var(--BODY-BGCOLOR);
+    border-radius: var(--BORDER-RADIUS-S);
+    display: inline;
+}
+
+.guide__h4::before {
+    content: "\00a0";
+}
+
+.guide__h4::after {
+    content: "\00a0";
 }
 
 /* || CONTACT */

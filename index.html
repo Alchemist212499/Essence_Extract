@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essence Extract</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <script type="module" src="js/index.js"></script>
 </head>
 <body>
@@ -37,11 +37,11 @@
     </section>
 
     <main class="main">
-        <article class="main__article dailyQuote">
+        <article class="main__article dailyQuote" id="dailyQuote">
             <h2 class="dailyQuote__h2">DAILY QUOTE <br> <span class="dailyQuote__author"></span> </h2>
             <p class="dailyQuote__p"></p>
         </article>
-        <h2 class="main__h2 bookList">BookList</h2>
+        <h2 class="main__h2 bookList" id="bookList">Book List</h2>
         <ul class="main__ul bookList">
             <li class="bookItem"><h1 class="main__h1" id="1"><a href="Francis_Bacon/1.html" class="bookTitle__a">&gt; Francis Bacon &lt;</a></h1></li>
             <li class="bookItem"><h1 class="main__h1" id="2"><a href="" class="bookTitle__a">&gt; Book2 &lt;</a></h1></li>
@@ -49,7 +49,38 @@
             <li class="bookItem"><h1 class="main__h1" id="4"><a href="" class="bookTitle__a">&gt; Book4 &lt;</a></h1></li>
             <li class="bookItem"><h1 class="main__h1" id="5"><a href="" class="bookTitle__a">&gt; Book5 &lt;</a></h1></li>
         </ul>
-        
+        <article class="main__article guide" id="guide">
+            <h2 class="guide__h2">Website Guide</h2>
+            <ul class="guide__ul"> 
+                <h3 class="guide__h3"><a href="#">Home</a></h3>
+                <li>
+                <h4 class="guide__h4"><a href="#dailyQuote">Daily Quote</a></h4>
+                    <p class="guide__p">Randomly generated quote from one of the chapters in the books will be displayed here each time the page refreshes. Click on the link after the quote to check out where it comes from.</p>
+                </li>
+                <li>
+                    <h4 class="guide__h4"><a href="#bookList">Book List</a></h4>
+                    <p class="guide__p">Click on one of the book compilations to check out detailed content.</p>
+                </li>
+                <li>
+                    <h4 class="guide__h4"><a href="#guide">Website Guide</a></h4>
+                    <p class="guide__p">Provides a concise guidebook to this website.</p>
+                </li>
+                <h3 class="guide__h3"><a href="pages/about.html">About</a></h3>
+                <li>
+                    <h4 class="guide__h4"><a href="pages/about.html">About Essence Extract</a></h4>
+                    <p class="guide__p">Here you can check out how <span class="italic">Essence Extract </span> came into being.</p>
+                </li>
+                <h3 class="guide__h3"><a href="pages/contact.html">Contact</a></h3>
+                <li>
+                    <h4 class="guide__h4"><a href="pages/contact.html">Our Location</a></h4>
+                    <p class="guide__p">Where we are located.</p>
+                </li>
+                <li>
+                    <h4 class="guide__h4"><a href="pages/contact.html">Our Contact Form</a></h4>
+                    <p class="guide__p">Leave us a message about what you expect more from our website.</p>
+                </li>
+            </ul>
+        </article>
     </main>
 
     
