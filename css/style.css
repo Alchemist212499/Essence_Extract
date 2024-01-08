@@ -450,7 +450,7 @@ a:active {
     border-radius: var(--BORDER-RADIUS-S);
     background-color: var(--HIGHLIGHT-COLOR);
     color: var(--BUTTON-COLOR);
-    margin: 0.9px;
+    margin: 1px;
     font-weight: bold;
 }
 
