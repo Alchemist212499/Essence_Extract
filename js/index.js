@@ -32,12 +32,6 @@ class quote  {
         this.author = author;
         this.chapter = chapter;
     }
-    getAuthor() {
-        console.log(this.author);
-    }
-    getText() {
-        console.log(this.text);
-    }
 }
 
 const requestQuote = async (url) => {
@@ -78,14 +72,6 @@ const displayQuote = (quoteObj, randomUrl) => {
         quoteText.innerHTML = "Enjoy your day!";
         quoteAuthor.innerHTML = "&gt; " + "Kyle Huang";
     }
-    /* if (quoteObj.text === "") {
-        quoteText.innerHTML = "no quote for today";
-        quoteAuthor.innerHTML = "&gt; " + "null";
-    } else {
-        quoteText.innerHTML = quoteObj.text;
-        quoteAuthor.innerHTML = "&gt; " + quoteObj.author;
-    } */
-
 }
 
 const addQuoteChapter = (quoteChapter, chapterNumber, randomUrl) => {

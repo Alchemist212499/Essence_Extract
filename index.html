@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <!-- 声明了页面UTF-8的字符编码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- 将视口宽度设置为与设备屏幕宽度匹配，防止在小屏幕上出现水平滚动。 -->
+    <!-- 将初始缩放比例设置为 1.0，意味着内容以原始大小显示，不会放大或缩小。 -->
     <title>Essence Extract</title>
+    <!-- 声明了标签页的标题 -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <script type="module" src="js/index.js"></script>
@@ -25,17 +29,21 @@
             </ul>
         </nav>
     </header>
+    <!-- 在<header>中声明了页眉，通过<nav>声明了导航栏 -->
+    <!-- 同时包含了<h1>这类文档标记装填标题 -->
+    <!-- 在导航栏中使用二维类标记<ul>来装填站点的不同页面 -->
 
     <section class="hero">
         <h2 class="hero__h2"><span class="nowrap">Less is MORE!</span></h2>
         <figure class="hero__figure">
             <img src="img/transparent_purple_open_book_685x485.png" alt="Get Started!" title="Get Started!" width="685" height="485">
-        </figure>
+        </figure> <!-- 对本地资源中的图片资源进行了访问 -->
+        <!-- 定义了图片的宽度和高度，以及图片的名称和fallback的文本内容 -->
         <figcaption class="offscreen">
             Get Started!
         </figcaption>
     </section>
-
+    <!-- 在<section>容器中声明了一张网站标志性的书本图片 -->
     <main class="main">
         <article class="main__article dailyQuote" id="dailyQuote">
             <h2 class="dailyQuote__h2">DAILY QUOTE <br> <span class="dailyQuote__author"></span> </h2>
@@ -91,6 +99,7 @@
             <span class="nowrap">Essence Extract</span>
         </p>
     </footer>
+    <!-- 使用容器类标记<footer>定义页脚，并在其中定义功能性不换行容器<span>来装填Copyright内容 -->
 
 </body>
 

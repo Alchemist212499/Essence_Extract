@@ -116,7 +116,6 @@ html {
 body {
     background-color: var(--BODY-BGCOLOR);
     color: var(--FONT-COLOR);
-
     min-height: 100vh;
     max-width: 800px;
     margin: 0 auto;
@@ -476,4 +475,4 @@ a:active {
             transform: skew(-10deg, -10deg) scale(1.1) translateX(10px);
         }
     }
-}
+} 

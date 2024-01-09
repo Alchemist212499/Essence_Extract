@@ -112,7 +112,6 @@ const postComment = () => {
                     const buttonBox = document.createElement("div");
                     commentItem.appendChild(buttonBox);
                     buttonBox.appendChild(editButton);   
-                    buttonBox.appendChild(deleteButton);
                 } else if (editedComment === ""){
                     alert("Please enter text!");
                 }
